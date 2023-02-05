@@ -1,0 +1,49 @@
+2023-02-05 12:11:45.843 +07:00 [INF] [02/05/2023 12:11 PM]:Connecting to MySQL...
+2023-02-05 12:11:46.089 +07:00 [INF] [02/05/2023 12:11 PM]: Process to index blocks from the block [12100001] to [12100002]
+2023-02-05 12:11:46.089 +07:00 [INF] [02/05/2023 12:11 PM]: Process for block Number [12100001]
+2023-02-05 12:11:46.113 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getBlockByNumber&tag=0xB8A1A1&boolean=true&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:46.120 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getBlockByNumber&tag=0xB8A1A1&boolean=true&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:47.778 +07:00 [INF] Received HTTP response headers after 1654.5062ms - 200
+2023-02-05 12:11:47.783 +07:00 [INF] End processing HTTP request after 1682.7209ms - 200
+2023-02-05 12:11:49.396 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getBlockTransactionCountByNumber&tag=0xB8A1A1&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:49.396 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getBlockTransactionCountByNumber&tag=0xB8A1A1&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:49.767 +07:00 [INF] Received HTTP response headers after 370.8825ms - 200
+2023-02-05 12:11:49.767 +07:00 [INF] End processing HTTP request after 371.1892ms - 200
+2023-02-05 12:11:49.771 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x0'
+2023-02-05 12:11:50.899 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x0&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:50.899 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x0&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.174 +07:00 [INF] Received HTTP response headers after 274.6483ms - 200
+2023-02-05 12:11:51.174 +07:00 [INF] End processing HTTP request after 274.945ms - 200
+2023-02-05 12:11:51.177 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x1'
+2023-02-05 12:11:51.178 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x1&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.178 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x1&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.443 +07:00 [INF] Received HTTP response headers after 264.9811ms - 200
+2023-02-05 12:11:51.443 +07:00 [INF] End processing HTTP request after 265.3125ms - 200
+2023-02-05 12:11:51.443 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x2'
+2023-02-05 12:11:51.444 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x2&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.444 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x2&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.700 +07:00 [INF] Received HTTP response headers after 256.7858ms - 200
+2023-02-05 12:11:51.701 +07:00 [INF] End processing HTTP request after 257.0952ms - 200
+2023-02-05 12:11:51.701 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x3'
+2023-02-05 12:11:51.701 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x3&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.701 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x3&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.972 +07:00 [INF] Received HTTP response headers after 270.037ms - 200
+2023-02-05 12:11:51.972 +07:00 [INF] End processing HTTP request after 270.3961ms - 200
+2023-02-05 12:11:51.972 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x4'
+2023-02-05 12:11:51.972 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x4&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:51.972 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x4&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:52.246 +07:00 [INF] Received HTTP response headers after 274.2929ms - 200
+2023-02-05 12:11:52.247 +07:00 [INF] End processing HTTP request after 274.45ms - 200
+2023-02-05 12:11:52.247 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x5'
+2023-02-05 12:11:52.247 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x5&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:52.247 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x5&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:52.506 +07:00 [INF] Received HTTP response headers after 259.1446ms - 200
+2023-02-05 12:11:52.506 +07:00 [INF] End processing HTTP request after 259.3495ms - 200
+2023-02-05 12:11:52.506 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x6'
+2023-02-05 12:11:52.507 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x6&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:52.507 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x6&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:52.801 +07:00 [INF] Received HTTP response headers after 294.5966ms - 200
+2023-02-05 12:11:52.802 +07:00 [INF] End processing HTTP request after 294.907ms - 200
+2023-02-05 12:11:52.802 +07:00 [INF] [02/05/2023 12:11 PM]: Process to insert transaction index '0x7'
+2023-02-05 12:11:52.802 +07:00 [INF] Start processing HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x7&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
+2023-02-05 12:11:52.803 +07:00 [INF] Sending HTTP request GET https://api.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex&tag=0xB8A1A1&index=0x7&apikey=7T8DUDM86W63E1Q5V5H9YM486C5NDXAXPR
